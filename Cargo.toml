@@ -1,12 +1,13 @@
 [package]
 name = "shell-config-generate"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
+rust-version = "1.85"
 description = "Portably generate config for any shell"
 repository = "https://github.com/uperl/shell-config-generate"
 license = "MIT"
+readme = "README.md"
+keywords = ["shell", "environment", "path", "config", "posix"]
+categories = ["config", "command-line-interface", "os"]
 
 [dependencies]
-anyhow = "1.0.104"
-
-
